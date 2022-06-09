@@ -1,0 +1,95 @@
+@media all and (min-width:768px) {
+    .bn .mobile{
+        display: none;
+    }
+    .bn .tablet{
+        display: block;
+    }
+    .s1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .s1 .item{
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .photo2{
+        order: 4;
+    }
+    .txt2{
+        order: 3;
+        text-align: right;
+    }
+    .txt1{
+        text-align: left;
+    }
+    .s1 .txt1{
+        margin-bottom: 0;
+    }
+
+    .s2 .con{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .s2 .item{
+        width: 48%;
+        box-sizing: border-box;
+    }
+    .btnplus{
+        margin-top: 24px;
+    }
+
+    .s3:after{
+        content: none;
+    }
+    .s3{
+        padding: 48px 20px;
+        text-align: left;
+    }
+    .s3 .txt .tablet{
+        display: block;
+    }
+    .s3 .txt em{
+        font-family: 'donut';
+        font-size: 30px;
+        font-style: normal;
+    }
+    .s3 .txt h2{
+        font-size: 28px;
+    }
+    .s3 .txt, .s3 .btn{
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .s3 .btn{
+        display: flex;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .s3 .btn a{
+        width: 120px;
+        margin: 0;
+        margin-right: 12px;
+    }
+
+    .s4{
+        position: relative;
+        display: flex;
+        padding-top: 150px;
+    }
+    .s4 .sns{
+        position: absolute;
+        top: -24px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .s4 .franchise{
+        margin-right: 12px;
+    }
+}
